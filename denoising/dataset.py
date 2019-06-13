@@ -12,9 +12,9 @@ class Dataset():
 
     def __init__(self, dataset_name, noise_level=50):
 
-        test_dataset_path = '../../dataset/CBSD68/CBSD68'
-        test_noisy_path = '../../dataset/CBSD68/CBSD68_{}'.format(noise_level)
-        train_dataset_path = '../../dataset/CBSD432/CBSD432'
+        test_dataset_path = 'CBSD68/CBSD68'
+        test_noisy_path = 'CBSD68/CBSD68_{}'.format(noise_level)
+        train_dataset_path = 'CBSD432/CBSD432'
         self.minibatch_size = config.minibatch_size
         self.ds_name = dataset_name
         self.rng = np.random
