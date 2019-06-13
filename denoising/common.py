@@ -15,10 +15,10 @@ class Config:
 
     exp_name = os.path.basename(log_dir)
 
-    minibatch_size = 128
+    minibatch_size = 512
     nr_channel = 3
     nr_epoch = 160
-    weight_decay = 1e-5
+    weight_decay = 1e-6
     show_interval = 2
     snapshot_interval = 2
     test_interval = 1
